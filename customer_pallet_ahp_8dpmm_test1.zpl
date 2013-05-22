@@ -1,0 +1,38 @@
+^XA
+^DFT^FS
+^BY5,,225
+^FX Serial Shipping Container Code ^FS
+^FO992,80^BCR,,Y,Y,N,D^FD(00) 0 0785377 003456510 0^FS
+^FX AHP Item ID ^FS
+^FO904,80^A0R,56,48^FDAHP Item ID: 4212^FS
+^FO680,80^BCR,,N,N,N,N^FDP4212^FS
+^FO640,596^A0R,240,192^FD4212^FS
+^FX Lot ID ^FS
+^FO592,80^A0R,56,48^FDLot ID: 9077067610^FS
+^FO368,80^BCR,,N,N,Y,N^FDL9077067610^FS
+^FX  Quantity in Kg ^FS
+^FO280,80^A0R,56,48^FDQty: 202.46 Kg^FS
+^FO56,80^BCR,,N,N,Y,N^FDQ202.46^FS
+^XZ
+
+^XA
+^XFT^FS
+^PQ2,0,0,Y
+^FX SSCC ^FS
+^FX Application Identifier (00) ^FS
+^FX Extension Indicator 0 ^FS
+^FX Company ID 0785377 ^FS
+^FX Pallet ID 00 + 7 digits ^FS
+^FX Place Holder for Check Digit 0 ^FS
+^FN1^FD%s^FS
+^FX AHP Item ^FS
+^FN2^FD%s^FS
+^FX Lot No ^FS
+^FN3^FD%s^FS
+^FX Pallet Net Wt ^FS
+^FN4^FD%s^FS
+^XZ
+
+^XA
+^IDT^FS
+^XZ

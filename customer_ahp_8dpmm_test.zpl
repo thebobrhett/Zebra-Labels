@@ -1,0 +1,12 @@
+^XA
+^FX AHP Item # ^FS
+^FO64,128^FB1224,,,C,^A0N,128,128^FDAHP Item #^FS
+^FX Item ^FS
+^FO64,256^FB1224,,,C,^A0N,288,288^FD4212^FS
+^FX Dorlastan ^FS
+^FO64,512^FB1224,,,C,^A0N,128,128^FDDorlastan^FS
+^FX Description ^FS
+^FO64,640^FB1224,,,C,^A0N,128,128^FD680 dtex/610 denier^FS
+^FX Print Quantity ^FS
+^PQ94,0,0,Y^FS
+^XZ

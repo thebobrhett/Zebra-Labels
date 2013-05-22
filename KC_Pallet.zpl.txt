@@ -1,0 +1,91 @@
+^XA
+'Write "LPN"
+^FT106,148^A0N,132,139^FDLPN^FS
+'
+'Write FN1
+'Substitute "49629300D014" for FN1 for testing
+^FT358,148^A0N,132,139^FD49629300D014^FS
+'^FT358,148^A0N,132,139^FN1^FS
+'
+'Write FN2 as barcode
+'Substitute "49629300D014" for FN1 for testing
+^FO244,191^BY5,0^BCN,206,N,N^FD>:49629300D014^FS
+'^FO244,191^BY5,0^BCN,206,N,N^FN2^FS
+'
+'Draw box
+^FO42,420^GB789,162,2^FS
+'
+'Write "ITEM#"
+^FT58,449^A0N,23,25^FDITEM#^FS
+'
+'Write FN3
+'Substitute "70059795" for FN3 for testing
+^FT151,558^A0N,157,165^FD70059795^FS
+'^FT151,558^A0N,157,165^FN3^FS
+'
+'Write "Dorlastan"
+^FT880,480^A0N,66,69^FDDorlastan^FS
+'
+'Write "Spandex"
+^FT880,540^A0N,66,69^FDSpandex^FS
+'
+'Write FN7
+'Substitute "620 dtex" for FN7 for testing
+^FT151,722^A0N,157,165^FD620 dtex^FS
+'^FT151,722^A0N,157,165^FN7^FS
+'
+'Draw box
+^FO196,760^GB391,0,104^FS
+'
+'Write FN5
+'Substitute "49629300" for FN5 for testing
+^FO203,775^A0N,91,95^FR^FD49629300^FS
+'^FO203,775^A0N,91,95^FR^FN5^FS
+'
+'Write FN6
+'Substitute "D014" for FN6 for testing
+^FT600,840^A0N,91,95^FDD016^FS
+'^FT600,840^A0N,91,95^FN6^FS
+'
+'Write "Asahi Kasei"
+'Write "Spandex America, Inc"
+'^FT879,619^FDDorlastan Fibers LLC^A0N,41,42^FS
+^FT880,620^A0N,41,42^FDAsahi Kasei^FS
+^FT880,660^A0N,41,42^FDSpandex America, Inc^FS
+'
+'Write "1566 Bushy Park Rd"
+^FT880,700^A0N,41,42^FD1566 Bushy Park Road^FS
+'
+'Write "Goose Creek SC 29445"
+^FT880,740^A0N,41,42^FDGoose Creek SC 29445^FS
+'
+'Write "USA"
+^FT880,780^A0N,41,42^FDUSA^FS
+'
+'Draw box
+^FO196,875^GB313,91,2^FS
+'
+'Write "RMS#"
+^FT204,902^FDRMS#^A0N,23,25^FS
+'
+'Write FN4
+'Substitute "EQRM00110" for FN4 for testing
+^FT206,952^A0N,57,58^FDEQRM00110^FS
+'^FT206,952^A0N,57,58^FN4^FS
+'
+'Write FN9
+'Substitute "V610" for FN9 for testing
+^FT576,952^A0N,57,58^FDV610^FS
+'^FT576,952^A0N,57,58^FN9^FS
+'
+'Write FN8
+'Substitute "560 den" for FN8 for testing
+^FT768,952^A0N,57,58^FD560 den^FS
+'^FT768,952^A0N,57,58^FN8^FS
+'
+'Write FN10
+'Substitute "10/20/06" for FN10 for testing
+^FT1032,952^A0N,57,58^FD10/20/06^FS
+'^FT1032,952^A0N,57,58^FN10^FS
+'
+^XZ

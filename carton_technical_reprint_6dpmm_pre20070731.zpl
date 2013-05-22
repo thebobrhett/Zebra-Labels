@@ -1,0 +1,59 @@
+^XA^PRC^LH%d,%d
+^FO219,1392^ADB,36,20^FD%s^FS //Dtex
+^FO219,1158^ADB,36,20^FD%s^FS //Denier
+^FO219,923^ADB,36,20^FD%s^FS  //Prod Type
+^FO32,518^BY4,2.5^B3I,N,132,N,N^FD%s^FS // Barcode for Carton ID
+^FO206,474^ADI,36,20^FD%s^FS // text under barcode
+^FO483,843^ADB,90,50^FD%s^FS // Carton ID
+^FO341,1235^AFB,104,52^FD%s^FS //Merge
+^FO235,257^ADB,36,20^FD%s^FS // Net Weight KG
+^FO235,23^ADB,36,20^FD%s^FS // Net Weight lbs
+^FO341,258^ADB,36,20^FD%s^FS // Gross Weight KG
+^FO341,23^ADB,36,20^FD%s^FS // Gross Weight lbs
+^FO508,383^ADB,36,20^FD%s^FS // Spool Count
+^FO509,74^ADB,18,10^FD%s^FS // Production Date
+^FO0,670^GB583,0,2^FS
+^FO0,466^GB586,0,2^FS
+^FO463,671^GB0,912,2^FS
+^FO282,671^GB0,912,2^FS
+^FO141,671^GB0,912,2^FS
+^FO190,0^GB0,467,2^FS
+^FO438,233^GB146,0,2^FS
+^FO472,349^GB109,0,2^FS
+^FO434,0^GB0,467,2^FS
+^FO26,1256^ADB,18,10^FDAsahi Kasei Spandex America^FS
+^FO45,1256^ADB,18,10^FD1566 Bushy Park Road^FS
+^FO64,1256^ADB,18,10^FDGoose Creek, SC 29445^FS
+^FO75,770^ADB,18,10^FDElastan Spandex^FS
+^FO40,734^ADB,36,20^FDDorlastan^FS
+^FO175,1506^ADB,18,10^FDDTEX:^FS
+^FO175,1255^ADB,18,10^FDDENIER:^FS
+^FO175,1013^ADB,18,10^FDTYPE:^FS
+^FO296,1506^ADB,18,10^FDMERGE^FS
+^FO469,1434^ADB,18,10^FDPACKAGE NO.^FS
+^FO511,1320^GB0,263,2^FS
+^FO462,1318^GB52,0,2^FS
+//                 "^FO17,21^A0B,19,26^FDATTENTION:  This fiber contains less^FS"
+//                 "^FO38,23^A0B,19,26^FDthan 1%% residual dimethylacetamide^FS"
+//                 "^FO59,13^A0B,19,26^FD(DMAC) which can be released during^FS"
+//                 "^FO80,23^A0B,19,26^FDprocessing.  Prolonged and repeated^FS"
+//                 "^FO101,7^A0B,19,26^FDoverexposure can cause liver damage.^FS"
+//                 "^FO122,72^A0B,19,26^FDUse adequate ventilation.  Avoid^FS"
+//                 "^FO142,29^A0B,19,26^FDexcessive handling.  Read MSDS for^FS"
+//                 "^FO163,215^A0B,19,26^FDfurther information.^FS"
+^FO197,176^ADB,18,10^FDNET WEIGHT^FS
+^FO292,164^ADB,18,10^FDGROSS WEIGHT^FS
+^FO243,417^ADB,18,10^FDKg.^FS
+^FO349,417^ADB,18,10^FDKg.^FS
+^FO246,183^ADB,18,10^FDlbs.^FS
+^FO352,183^ADB,18,10^FDlbs.^FS
+^FO439,335^ADB,18,10^FDSPOOLS^FS
+^FO471,235^GB0,233,2^FS
+^FO479,377^ADB,18,10^FDNUMBER^FS
+^FO479,291^ADB,18,10^FDSIZE^FS
+^FO469,0^GB0,235,2^FS
+^FO440,62^ADB,18,10^FDPRODUCT DATE^FS
+^FO26,735^ADB,18,10^FH\\^FD\\A9^FS
+^FO312,712^BY3,2.7^B3B,N,102,N,N^FD2V785377^FS
+^FO417,841^A0B,33,45^FD2V785377^FS
+^PQ0,0,0,Y^XZ

@@ -1,0 +1,99 @@
+^XA
+'
+'Write "Dorlastan"
+^FT32,160^A0N,66,69^FDDorlastan^FS
+'
+'Write "Spandex"
+^FT32,240^A0N,66,69^FDSpandex^FS
+'
+'Write "Asahi Kasei"
+'Write "Spandex America, Inc"
+'^FT33,326^FDDorlastan Fibers LLC^A0N,41,42^FS
+^FT32,320^A0N,41,42^FDAsahi Kasei^FS
+^FT33,360^A0N,41,42^FDSpandex America, Inc^FS
+'
+'Write "1566 Bushy Park Road"
+^FT32,400^A0N,41,42^FD1566 Bushy Park Road^FS
+'
+'Write "Goose Creek SC 29445"
+^FT32,440^A0N,41,42^FDGoose Creek SC 29445^FS
+'
+'Write "USA"
+^FT32,480^A0N,41,42^FDUSA^FS
+'
+'Write FN9
+'Substitute "620 dtex" for FN9 for testing
+^FT32,640^A0N,82,87^FD620 dtex^FS
+'^FT32,640^A0N,82,87^FN9^FS
+'
+'Write FN10
+'Substitute "560 den" for FN10 for testing
+^FT32,704^A0N,57,58^FD560 den^FS
+'^FT32,704^A0N,57,58^FN10^FS
+'
+'Write FN11
+'Substitute "V610" for FN11 for testing
+^FT277,704^A0N,57,58^FDV610^FS
+'^FT277,704^A0N,57,58^FN11^FS
+'
+'Write FN12
+'Substitute "10/20/06" for FN12 for testing
+^FT32,768^A0N,57,58^FD10/20/06^FS
+'^FT32,768^A0N,57,58^FN12^FS
+'
+'Write FN13
+'Substitute "EQRM00110" for FN13 for testing
+^FT32,880^A0N,82,69^FDEQRM00110^FS
+'^FT32,880^A0N,82,69^FN13^FS
+'
+'Draw box
+^FO432,108^GB864,181,2^FS
+'
+'Write FN1
+'Substitute "MAT.ID#                   P70059795" for FN1 for testing
+^FO752,120^A0N,32,34^FDMAT.ID#                   P70059795^FS
+'^FO752,120^A0N,32,34^FN1^FS
+'
+'Write FN2 as barcode
+'Substitute ">:P70059795" for FN2 for testing
+^FO702,160^BY4,0^BCN,112,N,N^FD>:P70059795^FS
+'^FO702,160^BY4,0^BCN,112,N,N^FN2^FS
+'
+'Draw Box
+^FO432,288^GB864,181,2^FS
+'
+'Write FN3
+'Substitute "LOT#                T4962930012345" for FN3 for testing
+^FO752,300^A0N,32,34^FDLOT#                T4962930012345^FS
+'^FO752,300^A0N,32,34^FN3^FS
+'
+'Write FN4 as barcode
+'Substitute ">:T4962930012345" for FN4 for testing
+^FO482,340^BY4,0^BCN,112,N,N^FD>:T4962930012345^FS
+'^FO482,340^BY4,0^BCN,112,N,N^FN4^FS
+'
+'Draw box
+^FO432,468^GB864,181,2^FS
+'
+'Write FN5
+'Substitute "QUANTITY               Q26.30kg/08" for FN5 for testing
+^FO752,480^A0N,32,34^FDQUANTITY               Q26.30kg/08^FS
+'^FO752,480^A0N,32,34^FN5^FS
+'
+'Write FN6 as barcode
+'Substitute ">:Q26.30" for FN6 for testing
+^FO834,520^BY4,0^BCN,112,N,N^FD>:Q26.30^FS
+'^FO834,520^BY4,0^BCN,112,N,N^FN6^FS
+'
+'Draw box
+^FO432,720^GB864,181,6^FS
+'
+'Write "PACKAGE NO."
+^FT747,768^A0N,32,34^FDPACKAGE NO.^FS
+'
+'Write FN7
+'Substitute "2696153" for FN7 for testing
+^FT692,853^A0N,82,87^FD2696153^FS
+'^FT692,853^A0N,82,87^FN7^FS
+'
+^XZ

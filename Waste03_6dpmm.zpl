@@ -1,0 +1,18 @@
+^XA
+^DFT
+^FO96,6^FB1200,1,0,C,0^A0B,96,96^FN1^FS
+^FO216,186^BY6,3.0,192^B3B,N,192,N,N^FN2^FS
+^XZ
+
+^XA
+^XFT
+^PQ1,0,0,Y
+^FX Waste Container Description ^FS
+^FN1^FDSM 3 Waste ONLY^FS
+^FX Waste Container ID Barcode ^FS
+^FN2^FDWASTE03^FS
+^XZ
+
+^XA
+^IDT
+^XZ

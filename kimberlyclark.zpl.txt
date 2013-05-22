@@ -1,0 +1,162 @@
+^XA
+'Pallet Label
+
+'Print rate = 2 inches per second
+^PR4,4,4
+
+'Print qty = 2
+^PQ2,0,0,N
+
+'"LPN"
+^FT106,148^A0N,132,139^FDLPN^FS
+
+'LPN
+^FT358,148^A0N,132,139^FD{0}^FS
+
+'LPN Barcode
+^FO244,191^BY5,0^BCN,206,N,N^FD{1}^FS
+
+'draw box
+^FO42,420^GB789,162,2^FS
+
+'"ITEM#"
+^FT58,449^A0N,23,25^FDITEM#^FS
+
+'Item number
+^FT151,558^A0N,157,165^FD{2}^FS
+
+'"Dorlastan"
+^FT880,480^A0N,66,69^FDDorlastan^FS
+
+'"Spandex"
+^FT880,540^A0N,66,69^FDSpandex^FS
+
+'dtex
+^FT151,722^A0N,157,165^FD{6}^FS
+
+'Draw black box for lot number
+^FO196,760^GB391,0,104^FS
+
+'lot number (reverse print on black background)
+^FO203,775^A0N,91,95^FR^FD{4}^FS
+
+'merge
+^FT600,840^A0N,91,95^FD{5}^FS
+
+'"Asahi Kasei"
+^FT880,620^A0N,41,42^FDAsahi Kasei^FS
+
+'"Spandex America, Inc"
+^FT880,660^A0N,41,42^FDSpandex America, Inc^FS
+
+'"1566 Bushy Park Road"
+^FT880,700^A0N,41,42^FD1566 Bushy Park Road^FS
+
+'"Goose Creek SC 29445"
+^FT880,740^A0N,41,42^FDGoose Creek SC 29445^FS
+
+'"USA"
+^FT880,780^A0N,41,42^FDUSA^FS
+
+'Draw box for RMS#
+^FO196,875^GB313,91,2^FS
+
+'"RMS#"
+^FT204,902^FDRMS#^A0N,23,25^FS
+
+'Raw Material Specification
+^FT206,952^A0N,57,58^FD{3}^FS
+
+'type
+^FT576,952^A0N,57,58^FD{8}^FS
+
+'denier
+^FT768,952^A0N,57,58^FD{7}^FS
+
+'production date
+^FT1032,952^A0N,57,58^FD{9}^FS
+
+^XZ
+
+^XA
+'Carton Label
+
+Print rate = 4 inches per second
+^PR4,4,4
+
+Print qty = 1
+^PQ1,0,0,N
+
+'"Dorlastan"
+^FT32,160^A0N,66,69^FDDorlastan^FS
+
+'"Spandex"
+^FT32,240^A0N,66,69^FDSpandex^FS
+
+'"Asahi Kasei"
+^FT32,320^A0N,41,42^FDAsahi Kasei^FS
+
+'"Spandex America, Inc"
+^FT33,360^A0N,41,42^FDSpandex America, Inc^FS
+
+'"1566 Bushy Park Road"
+^FT32,400^A0N,41,42^FD1566 Bushy Park Road^FS
+
+'"Goose Creek SC 29445"
+^FT32,440^A0N,41,42^FDGoose Creek SC 29445^FS
+
+'"USA"
+^FT32,480^A0N,41,42^FDUSA^FS
+
+'dtex
+^FT32,640^A0N,82,87^FD{7}^FS
+
+'denier
+^FT32,704^A0N,57,58^FD{8}^FS
+
+'type
+^FT277,704^A0N,57,58^FD{9}^FS
+
+'production date
+^FT32,768^A0N,57,58^FD{10}^FS
+
+'Raw Material Specification
+^FT32,880^A0N,82,69^FD{11}^FS
+
+'Draw box for P code
+^FO432,108^GB864,181,2^FS
+
+'P code
+^FO752,120^A0N,32,34^FD{0}^FS
+
+'P code Barcode
+^FO702,160^BY4,0^BCN,112,N,N^FD{1}^FS
+
+'Draw box for T code
+^FO432,288^GB864,181,2^FS
+
+'T code
+^FO752,300^A0N,32,34^FD{2}^FS
+
+'T code Barcode
+^FO482,340^BY4,0^BCN,112,N,N^FD{3}^FS
+
+'Draw box for Q code
+^FO432,468^GB864,181,2^FS
+
+'Q code
+^FO752,480^A0N,32,34^FD{4}^FS
+
+'Q code Barcode
+^FO834,520^BY4,0^BCN,112,N,N^FD{5}^FS
+
+'Draw box for Package No
+^FO432,720^GB864,181,6^FS
+
+'"PACKAGE NO."
+^FT747,768^A0N,32,34^FDPACKAGE NO.^FS
+
+'package no
+^FT692,853^A0N,82,87^FD{6}^FS
+
+^XZ

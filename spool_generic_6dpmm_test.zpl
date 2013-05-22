@@ -1,0 +1,26 @@
+^XA
+^DFT^FS
+^FX Generic Spool Label ^FS
+^FX 10000 labels to a roll ^FS
+^FX 4th line ^FS
+^FX DTEX ^FS
+^FO99,6^FB165,1,0,C,0^A0B,18,21^FN4^FS
+^FO324,6^FB165,1,0,C,0^A0B,18,21^FN4^FS
+^FX 5th line ^FS
+^FX Denier ^FS
+^FO123,6^FB165,1,0,C,0^A0B,18,21^FN5^FS
+^FO348,6^FB165,1,0,C,0^A0B,18,21^FN5^FS
+^XZ
+
+^XA
+^XFT^FS
+^PQ6,0,0,Y
+^FX DTEX ^FS
+^FN4^FDDTEX 33^FS
+^FX Denier ^FS
+^FN5^FDDenier 30^FS
+^XZ
+
+^XA
+^IDT^FS
+^XZ

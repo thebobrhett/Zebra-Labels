@@ -1,0 +1,95 @@
+Packaging Label
+
+Notes:
+1. Remove all comments before placing into production.
+2. Use no carriage return between ^XA and ^XZ.
+3. Use carriage return after ^XZ.
+
+Revision History
+****************
+Bob Rhett - Tuesday, January 16, 2007
+Moved everything up to fit on new blank label
+****************
+
+Start label
+^XA
+
+Create object T
+^DFT
+
+Set print speed to 2" per second
+^PR2,2,2
+
+Draw the uprights
+^FO136,4253^GB1732,0,6^FS
+^FO136,681^GB1732,0,6^FS
+
+Name and address at upper left
+^FO164,2839^ADB,72,40^FDAsahi Kasei Spandex America^FS
+^FO248,3182^ADB,72,40^FD1566 Bushy Park Road^FS
+^FO332,3130^ADB,72,40^FDGoose Creek, SC 29445^FS
+
+Draw a horizontal line
+^FO500,684^GB0,3572,6^FS
+
+Print field 0 Product Code
+^FO556,3526^A0B,92,126^FDProduct Code^FS
+^FO528,1894^A0B,304,418^FD{0}^FS
+
+Draw a horizontal line
+^FO808,683^GB0,3572,6^FS
+
+Print field 1 - Description
+^FO864,3586^A0B,101,138^FDDescription^FS
+^FO836,700^A0B,202,277^FB2850,2,,L,^FD{1}^FS
+
+Draw a horizontal line
+^FO1308,684^GB0,3572,6^FS
+
+Print field 2 - Quantity
+^FO1364,3760^A0B,101,138^FDQuantity^FS
+^FO1336,3185^A0B,219,301^FD{2}^FS
+
+Draw a horizontal line
+^FO1532,683^GB0,3572,6^FS
+
+Print field 3 - Timestamp
+^FO1588,3611^A0B,101,138^FDReceipt TS^FS
+^FO1560,2357^A0B,101,138^FD{3}^FS
+
+Print barcode
+^FO248,190^BY11,2.6^B3I,N,418,N,N^FN1^FS
+
+Print human readable
+^FO640,30^A0I,143,196^FN2^FS
+
+End label
+^XZ
+
+Start label
+^XA
+
+Recall object T
+^XFT^FS
+
+Set field 1 to data 0
+^FN1^FD{0}^FS
+
+Set field 2 to data 1
+^FN2^FD{1}
+
+Set print qty
+^PQ1,0,0,Y
+
+End label
+^XZ
+
+Start label
+^XA
+
+Delete object T
+^IDT
+^FS
+
+End label
+^XZ

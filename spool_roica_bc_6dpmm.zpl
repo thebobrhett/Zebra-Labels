@@ -1,0 +1,62 @@
+^XA
+^FX {0} = Odd threadline ^FS
+^FX {1} = Even threadline ^FS
+^FX {2} = Type ^FS
+^FX {3} = Dtex ^FS
+^FX {4} = Denier ^FS
+^FX {5} = Merge
+^FX 1st line ^FS
+^FX Arrow ^FS
+^FO30,24^GB6,114,3^FS
+^FO24,135^GB18,0,2^FS
+^FO25,137^GB17,0,2^FS
+^FO26,138^GB15,0,2^FS
+^FO26,140^GB14,0,2^FS
+^FO27,141^GB12,0,2^FS
+^FO28,143^GB11,0,2^FS
+^FO29,144^GB9,0,2^FS
+^FO29,146^GB8,0,2^FS
+^FO30,147^GB6,0,2^FS
+^FO31,149^GB5,0,2^FS
+^FO32,150^GB4,0,2^FS
+^FO32,152^GB2,0,2^FS
+^FO255,24^GB6,114,3^FS
+^FO249,135^GB18,0,2^FS
+^FO250,137^GB17,0,2^FS
+^FO251,138^GB15,0,2^FS
+^FO251,140^GB14,0,2^FS
+^FO252,141^GB12,0,2^FS
+^FO253,143^GB11,0,2^FS
+^FO254,144^GB9,0,2^FS
+^FO254,146^GB8,0,2^FS
+^FO255,147^GB6,0,2^FS
+^FO256,149^GB5,0,2^FS
+^FO257,150^GB4,0,2^FS
+^FO257,152^GB2,0,2^FS
+^FX 2nd line ^FS
+^FX Roica Type ^FS
+^FO51,6^FB165,1,0,C,0^A0B,21,18^FDRoica Type B855^FS
+^FO276,6^FB165,1,0,C,0^A0B,21,18^FDRoica Type B855^FS
+^FX 3rd line ^FS
+^FX Merge ^FS
+^FO78,6^FB165,1,0,C,0^A0B,21,18^FDMerge 5460^FS
+^FO303,6^FB165,1,0,C,0^A0B,21,18^FDMerge 5460^FS
+^FX 4th line ^FS
+^FX DTEX (Denier) ^FS
+^FO105,6^FB165,1,0,C,0^A0B,18,15^FDDTEX 33 (Denier 30)^FS
+^FO330,6^FB165,1,0,C,0^A0B,18,15^FDDTEX 33 (Denier 30)^FS
+^FX 5th line ^FS
+^FX Secret Date, Machine & Spool ^FS
+^FX 1st digit is the last digit of the year (range 0-9) ^FS
+^FX Digits 2, 3 & 4 are the day of the year (range 001-366) ^FS
+^FX Digits 5 & 6 are the spinning machine (range 01-15) ^FS
+^FX Digits 7 & 8 are the doff of the day (01-99) ^FS
+^FX Digits 9, 10 & 11 are the threadline (range 001-320) ^FS
+^FX To make it secret convert it to hex ^FS
+^FX example: 71521501001, 71521511256 ^FS
+^FX example: 10A7037F49, 10A703A758 ^FS
+^FO132,6^FB165,1,0,C,0^A0B,18,21^FD71521501001^FS
+^FO357,6^FB164,1,0,C,0^A0B,18,21^FD71521511256^FS
+^FO162,30^BY1,3.0,36^B2B,36,N,N,N^FD71521501001^FS
+^FO387,30^BY1,3.0,36^B2B,36,N,N,N^FD71521511256^FS
+^XZ

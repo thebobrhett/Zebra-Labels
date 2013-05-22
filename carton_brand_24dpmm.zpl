@@ -1,0 +1,12 @@
+^XA
+^FX Carton ID Barcode ^FS
+^FO288,120^BY12,2.2^B3N,N,432,N,N^FD{0}^FS
+^FX Carton ID Human Readable ^FS
+^FO696,600^A0N,144,192^FD{0}^FS
+^FX Line work ^FS
+^FO0,816^GB1848,0,12^FS
+^FX Brand Info ^FS
+^FO576,1080^A0B,384,288^FDAsahi Kasei Spandex America^FS
+^FO1056,2032^A0B,192,192^FD1566 Bushy Park Rd^FS
+^FO1296,1944^A0B,192,192^FDGoose Creek SC 29445^FS
+^XZ

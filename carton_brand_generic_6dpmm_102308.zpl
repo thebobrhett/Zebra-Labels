@@ -1,0 +1,20 @@
+^XA
+^DFT
+^FX Carton ID Barcode ^FS
+^FO36,30^BY3,2.2^B3N,N,108,N,N^FN1^FS
+^FX Carton ID Human Readable ^FS
+^FO6,150^FB450,1,0,C,0^A0N,72,72^FN1^FS
+^FX Line work ^FS
+^FO0,204^GB462,0,3^FS
+^XZ
+
+^XA
+^XFT
+^PQ1,0,0,Y
+^FX Carton ID ^FS
+^FN1^FD{0}^FS
+^XZ
+
+^XA
+^IDT
+^XZ
